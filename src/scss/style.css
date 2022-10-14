@@ -97,7 +97,6 @@ body {
 }
 .header .banner {
   color: hsl(0deg, 0%, 100%);
-  font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   border: 2px solid hsl(0deg, 0%, 100%);
   padding: 30px;
