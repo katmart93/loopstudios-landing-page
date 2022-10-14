@@ -10,7 +10,7 @@
   }
 
   &__logo {
-    width: 15rem;
+    width: 10rem;
   }
 
   &__menu {
@@ -30,6 +30,9 @@
     a {
       color: $white;
       font-family: $secondaryFont, sans-serif;
+      &:not(:last-child) {
+        padding-right: 1.8em;
+      }
     }
   }
 

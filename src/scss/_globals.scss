@@ -45,11 +45,6 @@ body {
   font-family: $mainFont, sans-serif;
 }
 
-// page wrapper
-.page-wrapper {
-  margin: 0 2rem;
-}
-
 // flexbox
 .flex {
   display: flex;
@@ -75,5 +70,18 @@ body {
   // hide for desktop
   @include breakpoint-up(large) {
     display: none;
+  }
+}
+
+// page wrapper
+.page-wrapper {
+  @include breakpoint-down(small) {
+    margin: 0 2rem;
+  }
+  @include breakpoint-up(medium) {
+    margin: 0 6rem;
+  }
+  @include breakpoint-up(large) {
+    margin: 0 8rem;
   }
 }
