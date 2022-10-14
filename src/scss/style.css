@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 *,
@@ -22,7 +22,10 @@ ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
-  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 ol,
@@ -33,4 +36,19 @@ ul {
 img {
   max-width: 100%;
   height: auto;
-} /*# sourceMappingURL=style.css.map */
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+header {
+  background-image: url("../../images/mobile/image-hero.jpg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
