@@ -44,4 +44,11 @@
     font-size: 1.2rem;
     margin-top: 10rem;
   }
+
+  .banner-wrapper {
+    @include breakpoint-up(large) {
+      display: flex;
+      width: 60%;
+    }
+  }
 }
