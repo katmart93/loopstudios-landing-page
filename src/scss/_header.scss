@@ -1,13 +1,45 @@
-header {
+.header {
   background-image: url('../../images/mobile/image-hero.jpg');
   height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  // &__logo {
-  // }
+  nav {
+    padding: 2rem 0;
+  }
 
-  // &__menu {
-  // }
+  &__logo {
+    width: 15rem;
+  }
+
+  &__menu {
+    span {
+      display: block;
+      width: 26px;
+      height: 2px;
+      background-color: $white;
+
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  &__links {
+    a {
+      color: $white;
+      font-family: $secondaryFont, sans-serif;
+    }
+  }
+
+  .banner {
+    color: $white;
+    font-family: $mainFont, sans-serif;
+    text-transform: uppercase;
+    border: 2px solid $white;
+    padding: 30px;
+    font-size: 1.2rem;
+    margin-top: 10rem;
+  }
 }
